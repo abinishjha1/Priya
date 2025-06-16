@@ -55,8 +55,8 @@ This website showcases Priya Suppliers' comprehensive iron rod quality testing s
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/priya.git
-cd priya
+git clone https://github.com/yourusername/Priya.git
+cd Priya
 ```
 
 2. Install dependencies:
@@ -91,7 +91,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 
 1. Push your code to the `main` branch
 2. GitHub Actions will automatically build and deploy your site
-3. Your site will be available at `https://yourusername.github.io/priya`
+3. Your site will be available at `https://yourusername.github.io/Priya`
 
 ## 🔧 Configuration
 
@@ -102,7 +102,7 @@ Before deploying, update the `astro.config.mjs` file:
 ```javascript
 export default defineConfig({
   site: 'https://yourusername.github.io',
-  base: '/priya',
+  base: '/Priya',
   // ... other config
 });
 ```

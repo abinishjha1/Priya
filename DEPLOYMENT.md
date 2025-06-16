@@ -15,19 +15,19 @@ This guide will help you deploy the Priya Suppliers website to GitHub Pages.
 1. Go to [GitHub](https://github.com) and sign in
 2. Click the "+" icon in the top right corner
 3. Select "New repository"
-4. Name your repository: **`priya`**
+4. Name your repository: **`Priya`** (with capital P)
 5. Make sure it's set to "Public"
 6. Don't initialize with README (we already have one)
 7. Click "Create repository"
 
 ### Step 2: Update Configuration
 
-The configuration is already set for the repository name "priya". Just update your GitHub username in `astro.config.mjs`:
+The configuration is already set for the repository name "Priya". Just update your GitHub username in `astro.config.mjs`:
 
 ```javascript
 export default defineConfig({
   site: 'https://YOUR_GITHUB_USERNAME.github.io',
-  base: '/priya',
+  base: '/Priya',
   output: 'static',
   build: {
     assets: 'assets'
@@ -52,7 +52,7 @@ git add .
 git commit -m "Initial commit: Priya Suppliers website"
 
 # Add GitHub repository as remote origin
-git remote add origin https://github.com/YOUR_USERNAME/priya.git
+git remote add origin https://github.com/YOUR_USERNAME/Priya.git
 
 # Push to GitHub
 git push -u origin main
@@ -60,7 +60,7 @@ git push -u origin main
 
 ### Step 4: Enable GitHub Pages
 
-1. Go to your repository on GitHub: `https://github.com/YOUR_USERNAME/priya`
+1. Go to your repository on GitHub: `https://github.com/YOUR_USERNAME/Priya`
 2. Click on "Settings" tab
 3. Scroll down to "Pages" in the left sidebar
 4. Under "Source", select "GitHub Actions"
@@ -72,7 +72,7 @@ git push -u origin main
 2. You'll see a workflow running called "Deploy to GitHub Pages"
 3. Wait for it to complete (usually takes 2-3 minutes)
 4. Once complete, your site will be available at:
-   **`https://YOUR_USERNAME.github.io/priya`**
+   **`https://YOUR_USERNAME.github.io/Priya`**
 
 ## 🔧 Making Updates
 
@@ -99,7 +99,7 @@ To use a custom domain:
 
 After deployment, test your website:
 
-1. Visit your GitHub Pages URL: `https://YOUR_USERNAME.github.io/priya`
+1. Visit your GitHub Pages URL: `https://YOUR_USERNAME.github.io/Priya`
 2. Check all pages load correctly
 3. Test navigation menu
 4. Verify contact form (note: form submission won't work without backend)
@@ -109,7 +109,7 @@ After deployment, test your website:
 
 ### Common Issues:
 
-1. **404 Error**: The base path is already set to `/priya` - ensure your repository name matches exactly
+1. **404 Error**: The base path is already set to `/Priya` - ensure your repository name matches exactly
 2. **CSS/Images not loading**: Make sure you've updated your GitHub username in the config
 3. **Build fails**: Check the Actions tab for error details
 
@@ -136,4 +136,4 @@ After deployment, test your website:
 
 Your Priya Suppliers website is now ready for deployment! 🎉
 
-**Final URL will be**: `https://YOUR_USERNAME.github.io/priya`
+**Final URL will be**: `https://YOUR_USERNAME.github.io/Priya`
