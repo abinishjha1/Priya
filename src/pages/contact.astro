@@ -1,0 +1,431 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us - Get in Touch | Priya Suppliers">
+	<section class="page-header">
+		<div class="container">
+			<h1>Contact Us</h1>
+			<p>Get in touch with our team for all your iron rod testing needs</p>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="contact-content">
+				<div class="contact-info">
+					<h2>Get in Touch</h2>
+					<p>
+						We're here to help you with all your iron rod quality testing requirements. Our experienced team 
+						is ready to provide comprehensive testing solutions tailored to your specific needs.
+					</p>
+
+					<div class="contact-details">
+						<div class="contact-item">
+							<div class="contact-icon">📍</div>
+							<div class="contact-text">
+								<h3>Our Location</h3>
+								<p>Simra Bara, Nepal</p>
+								<p>Strategic location serving the iron manufacturing sector across Nepal</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">📞</div>
+							<div class="contact-text">
+								<h3>Phone Number</h3>
+								<p><strong>9855024425</strong></p>
+								<p>Available during business hours for immediate assistance</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">🕒</div>
+							<div class="contact-text">
+								<h3>Business Hours</h3>
+								<p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+								<p>Saturday: 9:00 AM - 4:00 PM</p>
+								<p>Sunday: Closed</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">🔬</div>
+							<div class="contact-text">
+								<h3>Services Available</h3>
+								<p>Iron Rod Quality Testing</p>
+								<p>Chemical Composition Analysis</p>
+								<p>Tensile Strength Testing</p>
+								<p>Quality Certification</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="contact-form-section">
+					<div class="card">
+						<h3>Send Us a Message</h3>
+						<p>Fill out the form below and we'll get back to you as soon as possible.</p>
+						
+						<form class="contact-form" id="contactForm">
+							<div class="form-group">
+								<label for="name">Full Name *</label>
+								<input type="text" id="name" name="name" required>
+							</div>
+
+							<div class="form-group">
+								<label for="company">Company Name</label>
+								<input type="text" id="company" name="company">
+							</div>
+
+							<div class="form-group">
+								<label for="phone">Phone Number *</label>
+								<input type="tel" id="phone" name="phone" required>
+							</div>
+
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email">
+							</div>
+
+							<div class="form-group">
+								<label for="service">Service Required</label>
+								<select id="service" name="service">
+									<option value="">Select a service</option>
+									<option value="chemical-analysis">Chemical Composition Analysis</option>
+									<option value="tensile-testing">Tensile Strength Testing</option>
+									<option value="dimensional-testing">Dimensional Testing</option>
+									<option value="bend-testing">Bend Testing</option>
+									<option value="weight-verification">Weight Verification</option>
+									<option value="quality-certification">Quality Certification</option>
+									<option value="consultation">Quality Consultation</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="message">Message *</label>
+								<textarea id="message" name="message" rows="5" required placeholder="Please describe your testing requirements, project details, or any specific questions you have..."></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-submit">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section why-contact-section">
+		<div class="container">
+			<h2 class="section-title">Why Contact Priya Suppliers?</h2>
+			
+			<div class="benefits-grid">
+				<div class="benefit-item">
+					<div class="benefit-icon">🎯</div>
+					<h4>Expert Consultation</h4>
+					<p>Get professional advice on testing requirements and quality standards for your specific applications.</p>
+				</div>
+
+				<div class="benefit-item">
+					<div class="benefit-icon">💰</div>
+					<h4>Competitive Pricing</h4>
+					<p>Receive transparent, competitive quotes for all testing services with no hidden fees.</p>
+				</div>
+
+				<div class="benefit-item">
+					<div class="benefit-icon">⚡</div>
+					<h4>Quick Response</h4>
+					<p>Fast turnaround times on quotes and testing results to keep your projects moving forward.</p>
+				</div>
+
+				<div class="benefit-item">
+					<div class="benefit-icon">🤝</div>
+					<h4>Partnership Approach</h4>
+					<p>Build a long-term partnership with a trusted testing provider committed to your success.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section clients-mention">
+		<div class="container">
+			<div class="clients-highlight">
+				<h3>Trusted by Leading Iron Manufacturers</h3>
+				<p>
+					Join Jagdamba Steel, Hulas Steel, Ashok Steel, and Narayani Steel in experiencing 
+					the quality and reliability of our testing services.
+				</p>
+				<div class="client-logos">
+					<div class="client-name">Jagdamba Steel</div>
+					<div class="client-name">Hulas Steel</div>
+					<div class="client-name">Ashok Steel</div>
+					<div class="client-name">Narayani Steel</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.page-header {
+		background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+		color: white;
+		padding: 6rem 0 4rem;
+		text-align: center;
+	}
+
+	.page-header h1 {
+		font-size: 3rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+	}
+
+	.page-header p {
+		font-size: 1.25rem;
+		opacity: 0.9;
+	}
+
+	.contact-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+		align-items: start;
+	}
+
+	.contact-info h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+		color: #1e3a8a;
+	}
+
+	.contact-info > p {
+		font-size: 1.125rem;
+		color: #4b5563;
+		line-height: 1.7;
+		margin-bottom: 3rem;
+	}
+
+	.contact-details {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.contact-item {
+		display: flex;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+
+	.contact-icon {
+		font-size: 2rem;
+		flex-shrink: 0;
+		margin-top: 0.25rem;
+	}
+
+	.contact-text h3 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+		color: #1e3a8a;
+	}
+
+	.contact-text p {
+		color: #4b5563;
+		line-height: 1.5;
+		margin-bottom: 0.25rem;
+	}
+
+	.contact-text p strong {
+		color: #f97316;
+		font-size: 1.1rem;
+	}
+
+	.contact-form-section .card {
+		padding: 2.5rem;
+	}
+
+	.contact-form-section h3 {
+		font-size: 1.75rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: #1e3a8a;
+	}
+
+	.contact-form-section > .card > p {
+		color: #6b7280;
+		margin-bottom: 2rem;
+	}
+
+	.contact-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.form-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.form-group label {
+		font-weight: 500;
+		color: #374151;
+	}
+
+	.form-group input,
+	.form-group select,
+	.form-group textarea {
+		padding: 0.75rem;
+		border: 2px solid #e5e7eb;
+		border-radius: 0.5rem;
+		font-size: 1rem;
+		transition: all 0.3s ease;
+		font-family: inherit;
+	}
+
+	.form-group input:focus,
+	.form-group select:focus,
+	.form-group textarea:focus {
+		outline: none;
+		border-color: #3b82f6;
+		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+	}
+
+	.form-group textarea {
+		resize: vertical;
+		min-height: 120px;
+	}
+
+	.btn-submit {
+		width: 100%;
+		padding: 1rem;
+		font-size: 1.1rem;
+		margin-top: 1rem;
+	}
+
+	.why-contact-section {
+		background: #f8fafc;
+	}
+
+	.benefits-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 2rem;
+		margin-top: 2rem;
+	}
+
+	.benefit-item {
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.benefit-icon {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+		display: block;
+	}
+
+	.benefit-item h4 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: #1e3a8a;
+	}
+
+	.benefit-item p {
+		color: #6b7280;
+		line-height: 1.6;
+	}
+
+	.clients-mention {
+		background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+		color: white;
+	}
+
+	.clients-highlight {
+		text-align: center;
+	}
+
+	.clients-highlight h3 {
+		font-size: 2rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+	}
+
+	.clients-highlight p {
+		font-size: 1.125rem;
+		margin-bottom: 2rem;
+		opacity: 0.9;
+	}
+
+	.client-logos {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 2rem;
+	}
+
+	.client-name {
+		background: rgba(255, 255, 255, 0.1);
+		padding: 1rem 2rem;
+		border-radius: 2rem;
+		font-weight: 500;
+		border: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+	@media (max-width: 768px) {
+		.page-header {
+			padding: 4rem 0 3rem;
+		}
+
+		.page-header h1 {
+			font-size: 2.5rem;
+		}
+
+		.contact-content {
+			grid-template-columns: 1fr;
+			gap: 3rem;
+		}
+
+		.contact-info h2 {
+			font-size: 2rem;
+		}
+
+		.contact-form-section .card {
+			padding: 2rem;
+		}
+
+		.benefits-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.client-logos {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.clients-highlight h3 {
+			font-size: 1.5rem;
+		}
+	}
+</style>
+
+<script>
+	document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+		e.preventDefault();
+		
+		// Get form data
+		const formData = new FormData(this);
+		const data = Object.fromEntries(formData);
+		
+		// Show success message (in a real application, you would send this to a server)
+		alert('Thank you for your message! We will get back to you soon.');
+		
+		// Reset form
+		this.reset();
+	});
+</script>

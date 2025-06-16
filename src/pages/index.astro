@@ -1,0 +1,297 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Priya Suppliers - Leading Iron Rod Quality Testing Services in Nepal">
+	<section class="hero">
+		<div class="hero-content">
+			<div class="container">
+				<div class="hero-text">
+					<h1 class="hero-title">Ensuring Excellence in Iron Rod Quality Testing</h1>
+					<p class="hero-subtitle">
+						Priya Suppliers is Nepal's trusted partner for comprehensive iron rod quality testing services, 
+						serving major manufacturers with precision, reliability, and industry-leading expertise.
+					</p>
+					<div class="hero-buttons">
+						<a href="/services" class="btn">Our Services</a>
+						<a href="/contact" class="btn btn-secondary">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero-image">
+			<img src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Iron manufacturing process" />
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2 class="section-title">Why Choose Priya Suppliers?</h2>
+			<p class="section-subtitle">
+				With years of experience in iron quality testing, we provide comprehensive solutions 
+				that ensure your products meet the highest industry standards.
+			</p>
+			
+			<div class="features-grid">
+				<div class="card feature-card">
+					<div class="feature-icon">🔬</div>
+					<h3>Advanced Testing</h3>
+					<p>State-of-the-art laboratory equipment and testing methodologies for accurate results and comprehensive analysis.</p>
+				</div>
+				
+				<div class="card feature-card">
+					<div class="feature-icon">🏭</div>
+					<h3>Industry Expertise</h3>
+					<p>Specialized knowledge in iron rod testing with proven track record serving major iron manufacturers.</p>
+				</div>
+				
+				<div class="card feature-card">
+					<div class="feature-icon">⚡</div>
+					<h3>Quick Turnaround</h3>
+					<p>Fast and efficient testing processes that don't compromise on accuracy or quality standards.</p>
+				</div>
+				
+				<div class="card feature-card">
+					<div class="feature-icon">🛡️</div>
+					<h3>Quality Assurance</h3>
+					<p>Rigorous quality control measures ensuring consistent and reliable testing results every time.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section clients-section">
+		<div class="container">
+			<h2 class="section-title">Trusted by Leading Iron Manufacturers</h2>
+			<p class="section-subtitle">
+				We proudly serve some of Nepal's most respected iron companies, 
+				providing critical quality testing services that ensure product excellence.
+			</p>
+			
+			<div class="clients-grid">
+				<div class="client-card">
+					<h3>Jagdamba Steel</h3>
+					<p>Comprehensive quality testing for iron rod production lines</p>
+				</div>
+				<div class="client-card">
+					<h3>Hulas Steel</h3>
+					<p>Advanced material analysis and quality assurance services</p>
+				</div>
+				<div class="client-card">
+					<h3>Ashok Steel</h3>
+					<p>Regular testing protocols and quality control consultation</p>
+				</div>
+				<div class="client-card">
+					<h3>Narayani Steel</h3>
+					<p>Specialized testing for industrial-grade iron products</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section cta-section">
+		<div class="container">
+			<div class="cta-content">
+				<h2>Ready to Ensure Your Iron Quality?</h2>
+				<p>Contact us today to discuss your iron rod testing requirements and learn how we can help ensure your products meet the highest standards.</p>
+				<div class="cta-buttons">
+					<a href="/contact" class="btn">Get Started</a>
+					<a href="/services" class="btn btn-secondary">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.hero {
+		background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #1e40af 100%);
+		color: white;
+		min-height: 80vh;
+		display: flex;
+		align-items: center;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.hero-content {
+		position: relative;
+		z-index: 2;
+		width: 100%;
+		padding: 4rem 0;
+	}
+
+	.hero-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	.hero-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		opacity: 0.2;
+		filter: brightness(0.7);
+	}
+
+	.hero-text {
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.hero-title {
+		font-size: 3.5rem;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+		line-height: 1.1;
+	}
+
+	.hero-subtitle {
+		font-size: 1.25rem;
+		margin-bottom: 2rem;
+		opacity: 0.95;
+		line-height: 1.6;
+	}
+
+	.hero-buttons {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.features-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2rem;
+		margin-top: 2rem;
+	}
+
+	.feature-card {
+		text-align: center;
+	}
+
+	.feature-icon {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+		display: block;
+	}
+
+	.feature-card h3 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: #1e3a8a;
+	}
+
+	.feature-card p {
+		color: #6b7280;
+		line-height: 1.6;
+	}
+
+	.clients-section {
+		background: #f8fafc;
+	}
+
+	.clients-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 2rem;
+		margin-top: 2rem;
+	}
+
+	.client-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 1rem;
+		text-align: center;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+		border-left: 4px solid #f97316;
+		transition: all 0.3s ease;
+	}
+
+	.client-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+	}
+
+	.client-card h3 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: #1e3a8a;
+	}
+
+	.client-card p {
+		color: #6b7280;
+	}
+
+	.cta-section {
+		background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+		color: white;
+	}
+
+	.cta-content {
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.cta-content h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		color: white;
+	}
+
+	.cta-content p {
+		font-size: 1.125rem;
+		margin-bottom: 2rem;
+		opacity: 0.9;
+	}
+
+	.cta-buttons {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	@media (max-width: 768px) {
+		.hero {
+			min-height: 70vh;
+		}
+
+		.hero-title {
+			font-size: 2.5rem;
+		}
+
+		.hero-subtitle {
+			font-size: 1.125rem;
+		}
+
+		.hero-buttons {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.features-grid,
+		.clients-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.cta-content h2 {
+			font-size: 2rem;
+		}
+
+		.cta-buttons {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+</style>
